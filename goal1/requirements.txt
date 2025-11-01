@@ -1,0 +1,23 @@
+# python>=3.10
+pandas
+numpy
+tqdm
+pyyaml
+loguru
+rich
+rapidfuzz
+jieba
+unidecode
+pypdf
+pymupdf
+opencv-python
+pillow
+pdf2image
+rapidocr-onnxruntime
+sentence-transformers
+FlagEmbedding
+faiss-cpu
+qdrant-client
+pymilvus
+elasticsearch==8.*
+python-dotenv

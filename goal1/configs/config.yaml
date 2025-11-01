@@ -1,0 +1,36 @@
+paths:
+  data_raw: data/raw
+  data_interim: data/interim
+  corpus_chunks: corpus/chunks
+  corpus_tables: corpus/tables
+  testsuite: testsuite
+  indexes: indexes
+  results: results
+  reports: reports
+  raw_dir: data/raw
+  interim_dir: data/interim
+  chunks_out: corpus/chunks/all_chunks.jsonl
+  tables_dir: corpus/tables
+
+chunking:
+  max_tokens: 350
+  overlap: 120
+  max_chars: 350
+  overlap_chars: 120
+  min_paragraph_chars: 40
+  heading_font_threshold: 14.0
+  cross_page_merge: true
+
+ocr:
+  enabled: false
+  trigger_ratio: 0.0
+
+models:
+  candidates:
+    - bge-large-zh-v1.5
+    - m3e-large
+    - gte-qwen1.5-7b-instruct
+    - text-embedding-3-large
+
+retrieval:
+  distance_metric: cosine

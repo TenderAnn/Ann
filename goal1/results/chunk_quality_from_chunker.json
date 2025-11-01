@@ -1,0 +1,12 @@
+{
+  "total_pages": 2014,
+  "total_chunks": 9356,
+  "pages_with_chunks": 2012,
+  "page_coverage_ratio": 0.999,
+  "params": {
+    "max_chars": 350,
+    "overlap_chars": 120,
+    "min_paragraph_chars": 40,
+    "cross_page_merge": true
+  }
+}

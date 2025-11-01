@@ -1,0 +1,22 @@
+# Goal‑1 Release Notes
+
+- 日期：2025-11-01
+- 依赖（核心版本）：
+  - torch==2.9.0
+  - transformers==4.57.1
+  - rank-bm25==0.2.2
+  - dashscope（最新版）
+  - 完整依赖列表：见 `requirements.txt` / `pip freeze`
+- 关键脚本节点：
+  - `goal1/scripts/encode_embeddings.py`
+  - `goal1/scripts/bm25_and_fusion_eval.py`
+  - `goal1/scripts/rerank_cross_encoder.py`
+  - `goal1/scripts/eval_topk_from_json.py`
+  - `goal1/scripts/gen_embedding_report.py`
+  - `goal1/scripts/pack_goal1_release.py`
+- 榜单刷新：`goal1/reports/embedding_leaderboard.md`（最近一次：2025-11-01）
+- 数据哈希（SHA256）：
+  - `testsuite/queries.patched3.jsonl` — de1ed48cce7c99df06dd5ac2511a816fb419093197e87c09cb76c4a2f7079608
+  - `testsuite/qrels_passage.tsv` — bed45cd0f9946c801c9fce2dc50b7ee02ee91b4597abb98b7ed8ace7bebd1785
+  - `testsuite/qrels_doc_multi.tsv` — 0d33c0ac42801b6175503561a94bbcbf08f5a5e37852ec8d225180527c8ff8a0
+  - `corpus/chunks/all_chunks.with_name.jsonl` — cde1273fb82dc9924bd3bf82d418b2042243618919e7a94fbea9504fcd434072
