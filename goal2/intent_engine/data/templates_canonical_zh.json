@@ -1,0 +1,108 @@
+[
+  {
+    "intent": "ELIGIBILITY",
+    "template": "{product_name}{version_year}版的投保年龄是多少？",
+    "slots_required": [
+      "product_name",
+      "version_year"
+    ]
+  },
+  {
+    "intent": "ELIGIBILITY",
+    "template": "{product_name}的投保年龄上下限与职业要求？",
+    "slots_required": [
+      "product_name"
+    ]
+  },
+  {
+    "intent": "ELIGIBILITY",
+    "template": "养老/年金产品中，{field}一般如何约定？",
+    "slots_required": [
+      "field"
+    ]
+  },
+  {
+    "intent": "PREMIUM_RATE",
+    "template": "{product_name}的保费/费率如何测算？",
+    "slots_required": [
+      "product_name"
+    ]
+  },
+  {
+    "intent": "COVERAGE_EXCLUSION",
+    "template": "{product_name}的免责条款有哪些？",
+    "slots_required": [
+      "product_name"
+    ]
+  },
+  {
+    "intent": "CLAIM_PROCESS",
+    "template": "{product_name}的理赔流程与理赔材料要求？",
+    "slots_required": [
+      "product_name"
+    ]
+  },
+  {
+    "intent": "BENEFIT_RETURN",
+    "template": "包含{benefit_type}的{product_line}产品有哪些？",
+    "slots_required": [
+      "benefit_type",
+      "product_line"
+    ]
+  },
+  {
+    "intent": "BENEFIT_RETURN",
+    "template": "{product_name}是否包含{benefit_type}？",
+    "slots_required": [
+      "product_name",
+      "benefit_type"
+    ]
+  },
+  {
+    "intent": "POLICY_VALIDITY",
+    "template": "{product_name}{version_year}版与其他版本在{field}上有什么差异？",
+    "slots_required": [
+      "product_name",
+      "version_year",
+      "field"
+    ]
+  },
+  {
+    "intent": "COVERAGE_EXCLUSION",
+    "template": "{product_line}的常见免责有哪些？",
+    "slots_required": [
+      "product_line"
+    ]
+  },
+  {
+    "intent": "CLAIM_PROCESS",
+    "template": "{product_line}产品的理赔须知如何表述？",
+    "slots_required": [
+      "product_line"
+    ]
+  },
+  {
+    "intent": "PREMIUM_RATE",
+    "template": "{product_line}的费率表如何阅读？",
+    "slots_required": [
+      "product_line"
+    ]
+  },
+  {
+    "intent": "ELIGIBILITY",
+    "template": "{product_name}的等待期与犹豫期分别是多少？",
+    "slots_required": [
+      "product_name"
+    ]
+  },
+  {
+    "intent": "BENEFIT_RETURN",
+    "template": "生存金在5年内返还的寿险条款有哪些？",
+    "slots_required": []
+  },
+  {
+    "intent": "COVERAGE_EXCLUSION",
+    "template": "养老型保险的免责条款有哪些？",
+    "slots_required": []
+  }
+]

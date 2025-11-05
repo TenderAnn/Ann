@@ -1,0 +1,11 @@
+fastapi==0.110.*
+uvicorn==0.29.*
+scikit-learn==1.4.*
+pandas==2.2.*
+jieba==0.42.*
+pyyaml==6.*
+joblib==1.4.*
+tqdm==4.*
+matplotlib==3.8.*
+pytest==8.*
+httpx==0.28.*

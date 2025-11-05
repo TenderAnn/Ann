@@ -1,0 +1,6 @@
+{
+  "threshold": 0.77,
+  "accept_accuracy": 1.0,
+  "reject_rate": 0.004761904761904745,
+  "penalty": 0.12023809523809526
+}

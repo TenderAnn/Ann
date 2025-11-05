@@ -1,0 +1,60 @@
+openapi: 3.0.2
+info:
+  title: Intent Engine
+  version: "1.0.0"
+servers:
+  - url: http://localhost:8080
+    description: Local dev
+paths:
+  /intent/parse:
+    post:
+      summary: Parse colloquial query into intent, slots, and confidence.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                text:
+                  type: string
+              required: [text]
+      responses:
+        "200":
+          description: Parsed intent payload.
+  /intent/rewrite:
+    post:
+      summary: Generate canonical rewrites using slots and templates.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        "200":
+          description: Rewrite suggestions.
+  /intent/clarify:
+    post:
+      summary: Produce clarification questions and suggestions.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        "200":
+          description: Clarification response.
+  /intent/feedback:
+    post:
+      summary: Record user feedback for continual learning.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        "200":
+          description: Feedback acknowledgement.

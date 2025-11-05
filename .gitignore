@@ -13,3 +13,6 @@ release/*.zip
 goal1/release/goal1_v1.zip
 goal1/release/goal1_v1.zip
 goal1/release/goal1_v1.zip
+
+# Virtual environments
+**/.venv/

@@ -1,0 +1,12 @@
+                    precision    recall  f1-score   support
+
+    BENEFIT_RETURN     1.0000    1.0000    1.0000        48
+     CLAIM_PROCESS     1.0000    1.0000    1.0000         6
+COVERAGE_EXCLUSION     1.0000    1.0000    1.0000         6
+       ELIGIBILITY     1.0000    1.0000    1.0000        24
+   POLICY_VALIDITY     1.0000    1.0000    1.0000       120
+      PREMIUM_RATE     1.0000    1.0000    1.0000         6
+
+          accuracy                         1.0000       210
+         macro avg     1.0000    1.0000    1.0000       210
+      weighted avg     1.0000    1.0000    1.0000       210

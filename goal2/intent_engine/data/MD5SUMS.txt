@@ -1,0 +1,6 @@
+de168ef10cbc84f5e61d478872aceda8  intent_dataset_zh_insurance_v1.csv
+41524eba78dfdd6db6fccaeaa44679ce  intent_dataset_zh_insurance_v1.jsonl
+f26890dd196a2951bfb0d45576b39c13  ontology_insurance_zh.yaml
+9e2937a46085c3c2338220e79366bb70  synonyms_insurance_zh.tsv
+6917b527be76ba5904d237ef2ab8d0d6  templates_canonical_zh.json
+568965251be31b60d174f054ed4487e8  feedback_seed.csv
