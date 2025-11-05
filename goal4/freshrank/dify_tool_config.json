@@ -1,0 +1,16 @@
+{
+  "name": "FreshrankRerank",
+  "type": "http",
+  "description": "Regulatory-aware recency reranker for insurance sales corpus",
+  "method": "POST",
+  "url": "http://localhost:8088/rerank",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": "{\n  \"query\": \"{{ normalized_query }}\",\n  \"intent\": \"{{ intent }}\",\n  \"regulatory\": \"auto\",\n  \"documents\": {{ topk_candidates }}\n}",
+  "test_instructions": [
+    "1. 先用任务二的召回节点填充 normalized_query / intent / topk_candidates。",
+    "2. 发送 POST 请求到 http://localhost:8088/rerank 并检查 HTTP 200。",
+    "3. 校验响应中的 score_breakdown.w_regulatory 与 tags/evidence 字段后，再交给答案生成节点。"
+  ]
+}

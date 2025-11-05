@@ -1,0 +1,21 @@
+rules:
+  - id: esg_compliance_plus
+    description: Align with 最新《人身保险监管评级》ESG条款
+    triggers:
+      taxonomy_tags: ["esg", "sustainability"]
+      keywords: ["责任投资", "绿色金融", "碳中和"]
+    score_adjustment:
+      multiplier: 1.15
+      rationale: "Reward ESG compliant content"
+  - id: esg_missing
+    description: Penalize docs that lack ESG commitments when mandatory
+    triggers:
+      taxonomy_tags: ["product_update"]
+      keywords_absent: ["ESG", "责任投资"]
+    score_adjustment:
+      value: -0.2
+      rationale: "Missing ESG disclosure"
+metadata_requirements:
+  effective_date: true
+  expiry_date: true
+  regulatory_notice_id: true

@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+pyyaml
+loguru
+pandas
+numpy
+regex
+dateparser
+pdfplumber
+pymupdf
+camelot-py[cv]
+python-dateutil
+scikit-learn
+pytest
+httpx

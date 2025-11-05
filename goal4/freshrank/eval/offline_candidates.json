@@ -1,0 +1,32 @@
+[
+  {
+    "doc_id": "doc_001",
+    "relevance": 0.8,
+    "effective_date": "2025-11-05T05:59:04.179452",
+    "expired": false
+  },
+  {
+    "doc_id": "doc_035",
+    "relevance": 0.7000000000000001,
+    "effective_date": "2025-10-06T05:59:04.179452",
+    "expired": false
+  },
+  {
+    "doc_id": "doc_070",
+    "relevance": 0.6000000000000001,
+    "effective_date": "2025-09-06T05:59:04.179452",
+    "expired": false
+  },
+  {
+    "doc_id": "doc_120",
+    "relevance": 0.5,
+    "effective_date": "2025-08-07T05:59:04.179452",
+    "expired": false
+  },
+  {
+    "doc_id": "doc_180",
+    "relevance": 0.4,
+    "effective_date": "2025-07-08T05:59:04.179452",
+    "expired": true
+  }
+]

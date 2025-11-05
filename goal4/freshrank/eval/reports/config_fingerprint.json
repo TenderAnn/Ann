@@ -1,0 +1,58 @@
+{
+  "generated_at": "2025-11-05T07:13:38.286275+00:00",
+  "files": [
+    {
+      "path": "regulatory/rulebook.yaml",
+      "sha256": "28e00b6d377f3328ebbfd800d56e2006d1af37cc920166deef52caf7ada8bb88"
+    },
+    {
+      "path": "regulatory/taxonomy.yaml",
+      "sha256": "1f0eba3f94b6a0dbd689cf05b1d9da17d3c4166c42d891fa3ea8f9b440badc33"
+    },
+    {
+      "path": "regulatory/weights.yaml",
+      "sha256": "f751b81c820ddb2515e50297b147a2d4fbdff72f3f6dacdedfeddbdff2688f41"
+    },
+    {
+      "path": "regulatory/lexicon/aml.txt",
+      "sha256": "f74fbb48e9fe77e5fccb63eddda3666e2b1e221bdd36b0b430feaf75e1204b78"
+    },
+    {
+      "path": "regulatory/lexicon/consumer_protection.txt",
+      "sha256": "b10e1cd22d8bec534b26b025683febdfe3c39b6e0bd24d843f6bd4097b8fb646"
+    },
+    {
+      "path": "regulatory/lexicon/data_security.txt",
+      "sha256": "f522ed4dc915571ffc9a6f2e54ff49557b3f394cfbfffbfdd9545d7d80b8a775"
+    },
+    {
+      "path": "regulatory/lexicon/disclosure_gov.txt",
+      "sha256": "7248f668ec2ce0b0c1b664572e454783a7415fc08f4240cefb971022de800df0"
+    },
+    {
+      "path": "regulatory/lexicon/esg.txt",
+      "sha256": "8158ff59736694d3adcc2ca2b2b77673463458175f3fbde83f73be678a45ddba"
+    },
+    {
+      "path": "regulatory/lexicon/health.txt",
+      "sha256": "12b5d245ea41c3dcb5b673bcdffe4d8eb09bafb745d5701ba39dd297e70c5c39"
+    },
+    {
+      "path": "regulatory/lexicon/rating.txt",
+      "sha256": "69dd5a41c3af89ae73ea297fecf3cb859f57fdaf48ff9e19e114c28fa42b8496"
+    },
+    {
+      "path": "regulatory/lexicon/retirement.txt",
+      "sha256": "b7aa68c576fe8d115194b8a22c1b7bd12b895eeb1d129df766f54335d76f87c0"
+    },
+    {
+      "path": "regulatory/lexicon/sales_compliance.txt",
+      "sha256": "8391fe14e4a131388d77bdffb7a8363ff24599b01d42408ef52c7f8aec6424be"
+    },
+    {
+      "path": "freshrank/config/ranking_rules.yaml",
+      "sha256": "1b5dfae358acc73842c7bd2fa0dcee0363a2a50f4ade73845cae6a794c3199f6"
+    }
+  ],
+  "combined_hash": "b74d856ddc673cb51a3de8bb5e4d92be4764a34fb849f0169a26899db9425c91"
+}

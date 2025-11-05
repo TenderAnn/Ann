@@ -1,0 +1,16 @@
+{
+  "reg_on": {
+    "ndcg@10": 0.0853,
+    "mrr": 0.0864,
+    "new_doc_top10_ratio": 0.8771,
+    "expired_in_top10_ratio": 0.02,
+    "avg_w_regulatory": 0.0343
+  },
+  "reg_off": {
+    "ndcg@10": 0.0761,
+    "mrr": 0.0851,
+    "new_doc_top10_ratio": 0.8857,
+    "expired_in_top10_ratio": 0.02,
+    "avg_w_regulatory": 0.0
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "grid": {
+    "esg": [
+      {
+        "threshold": 0.35,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      },
+      {
+        "threshold": 0.45,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      },
+      {
+        "threshold": 0.55,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      },
+      {
+        "threshold": 0.65,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      },
+      {
+        "threshold": 0.75,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      }
+    ],
+    "rating": [
+      {
+        "threshold": 0.35,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.45,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.55,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.65,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.75,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      }
+    ],
+    "data_security": [
+      {
+        "threshold": 0.35,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.45,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.55,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.65,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.75,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      }
+    ],
+    "consumer_protection": [
+      {
+        "threshold": 0.35,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      },
+      {
+        "threshold": 0.45,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      },
+      {
+        "threshold": 0.55,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      },
+      {
+        "threshold": 0.65,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      },
+      {
+        "threshold": 0.75,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      }
+    ],
+    "sales_compliance": [
+      {
+        "threshold": 0.35,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.45,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.55,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.65,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.75,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      }
+    ],
+    "aml": [
+      {
+        "threshold": 0.35,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.45,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.55,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.65,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.75,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      }
+    ],
+    "disclosure_gov": [
+      {
+        "threshold": 0.35,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.45,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.55,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.65,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "threshold": 0.75,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      }
+    ]
+  },
+  "best": {
+    "esg": {
+      "threshold": 0.35,
+      "precision": 0.6667,
+      "recall": 1.0,
+      "f1": 0.8,
+      "tp": 20,
+      "fp": 10,
+      "fn": 0
+    },
+    "rating": {
+      "threshold": 0.35,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    "data_security": {
+      "threshold": 0.35,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    "consumer_protection": {
+      "threshold": 0.35,
+      "precision": 0.6667,
+      "recall": 1.0,
+      "f1": 0.8,
+      "tp": 20,
+      "fp": 10,
+      "fn": 0
+    },
+    "sales_compliance": {
+      "threshold": 0.35,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    "aml": {
+      "threshold": 0.35,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    "disclosure_gov": {
+      "threshold": 0.35,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "combined_thresholds": {
+    "esg": 0.35,
+    "rating": 0.35,
+    "data_security": 0.35,
+    "consumer_protection": 0.35,
+    "sales_compliance": 0.35,
+    "aml": 0.35,
+    "disclosure_gov": 0.35
+  },
+  "combined_summary": {
+    "macro": {
+      "precision": 0.9048,
+      "recall": 1.0,
+      "f1": 0.9429
+    },
+    "micro": {
+      "precision": 0.875,
+      "recall": 1.0,
+      "f1": 0.9333,
+      "tp": 140,
+      "fp": 20,
+      "fn": 0
+    },
+    "per_label": {
+      "esg": {
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      },
+      "rating": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      "data_security": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      "consumer_protection": {
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 20,
+        "fp": 10,
+        "fn": 0
+      },
+      "sales_compliance": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      "aml": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      "disclosure_gov": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      }
+    }
+  },
+  "cooccur": {}
+}

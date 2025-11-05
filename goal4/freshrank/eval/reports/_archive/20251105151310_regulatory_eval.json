@@ -1,0 +1,73 @@
+{
+  "macro": {
+    "precision": 0.9048,
+    "recall": 1.0,
+    "f1": 0.9429
+  },
+  "micro": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1": 0.9333,
+    "tp": 140,
+    "fp": 20,
+    "fn": 0
+  },
+  "per_label": {
+    "esg": {
+      "precision": 0.6667,
+      "recall": 1.0,
+      "f1": 0.8,
+      "tp": 20,
+      "fp": 10,
+      "fn": 0
+    },
+    "rating": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    "data_security": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    "consumer_protection": {
+      "precision": 0.6667,
+      "recall": 1.0,
+      "f1": 0.8,
+      "tp": 20,
+      "fp": 10,
+      "fn": 0
+    },
+    "sales_compliance": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    "aml": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    "disclosure_gov": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    }
+  }
+}

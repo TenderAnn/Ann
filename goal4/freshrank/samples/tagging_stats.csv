@@ -1,0 +1,8 @@
+tag,total,title_hits,heading_hits,body_hits,avg_confidence,bin_0.00_0.20,bin_0.20_0.40,bin_0.40_0.60,bin_0.60_0.80,bin_0.80_1.00
+disclosure_gov,40,40,0,0,0.9526,0,0,0,0,40
+rating,40,40,0,0,0.9917,0,0,0,0,40
+data_security,40,40,0,0,0.9917,0,0,0,0,40
+esg,40,40,0,0,0.9237,0,0,0,0,40
+consumer_protection,40,40,0,0,0.9885,0,0,0,0,40
+sales_compliance,40,40,0,0,0.9917,0,0,0,0,40
+aml,40,40,0,0,0.9942,0,0,0,0,40

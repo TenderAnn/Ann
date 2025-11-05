@@ -1,0 +1,104 @@
+name: Freshrank Regulatory Rulebook
+version: 2024.06
+sla:
+  new_clause_latency_minutes: 20
+  recall_new_docs_target: 0.6
+  expired_false_recall_threshold: 0.01
+rules:
+  - id: recency_tiers
+    description: 动态时效加权规则
+    logic:
+      - condition: "age_days <= 180"
+        action: "weight *= 1.3"
+      - condition: "age_days > 180 and age_days <= 730"
+        action: "weight *= 1.0"
+      - condition: "age_days > 730 or expired"
+        action: "weight = min(weight, 0.05)"
+  - id: regulatory_alignment
+    description: 优先通过监管评级条款
+    logic:
+      - condition: "contains_tag('rating')"
+        action: "weight += 0.1"
+  - id: esg_bonus
+    description: 满足ESG责任条款加权
+    logic:
+      - condition: "contains_tag('esg') or keyword_in(['责任投资','ESG'])"
+        action: "weight *= 1.15"
+  - id: expiry_floor
+    description: 过期文档自动降权
+    logic:
+      - condition: "expired"
+        action: "weight = 0.01"
+metadata_capture:
+  effective_date: auto
+  expiry_date: auto
+  regulation_reference: manual
+validation:
+  - metric: new_doc_recall
+    target: 1.0
+  - metric: stale_doc_false_recall
+    target: 0.01
+tagging:
+  esg:
+    include:
+      - type: lexicon
+        name: esg
+      - type: regex
+        value: "(ESG|环境、社会及治理)"
+    exclude:
+      - type: regex
+        value: "不涉及ESG"
+    negative_cues: ["免责", "不承担", "不适用"]
+    cooccur:
+      - type: regex
+        value: "(责任投资|信息披露|公司治理|ESG报告|绿色金融|责任实践|指标|评价|披露要求)"
+    min_confidence: 0.55
+    doc_type: ["ESG报告"]
+  rating:
+    include:
+      - type: lexicon
+        name: rating
+    negative_cues: ["未评级", "不在评级范围"]
+    cooccur:
+      - type: regex
+        value: "(通报|排名|综合评级|分类监管|评价结果)"
+    min_confidence: 0.5
+    doc_type: ["监管通报", "年度报告", "治理报告"]
+  data_security:
+    include:
+      - type: lexicon
+        name: data_security
+    negative_cues: ["免责", "不承担"]
+  consumer_protection:
+    include:
+      - type: lexicon
+        name: consumer_protection
+    exclude:
+      - type: regex
+        value: "免责说明"
+    negative_cues: ["免责", "不承担", "免责说明"]
+  sales_compliance:
+    include:
+      - type: lexicon
+        name: sales_compliance
+  aml:
+    include:
+      - type: lexicon
+        name: aml
+    negative_cues: ["无需反洗钱", "豁免"]
+  disclosure_gov:
+    include:
+      - type: lexicon
+        name: disclosure_gov
+    cooccur:
+      - type: regex
+        value: "(披露制度|披露义务|披露流程|披露频率|披露渠道|治理报告|年度报告)"
+    exclude_sections: ["目录", "索引", "致谢", "封底", "版权页", "广告页"]
+    min_confidence: 0.5
+    doc_type: ["治理报告", "年度报告"]
+confidence_policy:
+  default_threshold: 0.35
+  overrides:
+    esg: 0.45
+    rating: 0.5
+    disclosure_gov: 0.5

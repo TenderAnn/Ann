@@ -1,0 +1,43 @@
+version: 0.1.0
+updated_at: 2024-06-01
+domains:
+  - id: life
+    label: 寿险产品
+    children:
+      - id: protection
+        label: 保障型
+        topics: [重疾险, 定期寿险]
+      - id: annuity
+        label: 年金/养老
+        topics: [养老金, 退休保障]
+  - id: compliance
+    label: 合规条款
+    children:
+      - id: esg
+        label: ESG责任
+        topics: [ESG, 绿色金融, 责任投资]
+      - id: rating
+        label: 监管评级
+        topics: [人身保险监管评级, 监管评级, 评级排名]
+      - id: data_security
+        label: 数据安全
+        topics: [个人信息保护, 隐私政策, 加密, 最小必要, 脱敏, 去标识化]
+      - id: consumer_protection
+        label: 消费者保护
+        topics: [销售误导, 冷静期, 犹豫期, 投诉处理, 适当性]
+      - id: sales_compliance
+        label: 销售合规
+        topics: [KYC, 风险承受度, 营销合规, 夸大承诺, 销售流程]
+      - id: aml
+        label: 反洗钱
+        topics: [反洗钱, 可疑交易, 客户身份识别, 制裁名单]
+      - id: disclosure_gov
+        label: 披露与治理
+        topics: [信息披露, 年度报告, 公司治理, 内控评价, 重大事项披露]
+metadata_fields:
+  - name: effective_date
+    required: true
+  - name: expiry_date
+    required: true
+  - name: recommendation_ttl
+    required: false
