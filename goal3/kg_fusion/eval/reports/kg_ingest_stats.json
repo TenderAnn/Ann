@@ -1,0 +1,6 @@
+{
+  "nodes": 11,
+  "edges": 8,
+  "anchors": 8,
+  "sqlite": "data/kg/graph.sqlite"
+}

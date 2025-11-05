@@ -1,0 +1,12 @@
+node_id,node_type,props_json
+pv:policy_claims_appendix,ProductVersion,"{""doc_id"": ""policy_claims_appendix""}"
+pv:policy_double_column,ProductVersion,"{""doc_id"": ""policy_double_column""}"
+pv:policy_single_column,ProductVersion,"{""doc_id"": ""policy_single_column""}"
+clause:policy_single_column-00001,Clause,"{""label"": ""COVERAGE"", ""doc_id"": ""policy_single_column""}"
+clause:policy_claims_appendix-00003,Clause,"{""label"": ""CLAIM_MATERIAL"", ""doc_id"": ""policy_claims_appendix""}"
+clause:policy_double_column-00000,Clause,"{""label"": ""COVERAGE"", ""doc_id"": ""policy_double_column""}"
+clause:policy_double_column-00001,Clause,"{""label"": ""COVERAGE"", ""doc_id"": ""policy_double_column""}"
+clause:policy_double_column-00002,Clause,"{""label"": ""COVERAGE"", ""doc_id"": ""policy_double_column""}"
+rt:policy_claims_appendix-t0001,PremiumRateTable,"{""doc_id"": ""policy_claims_appendix"", ""page_no"": 1, ""n_rows"": 4, ""n_cols"": 3, ""header_map"": {""0"": ""Document Type"", ""1"": ""Description"", ""2"": ""Mandatory?""}}"
+rt:policy_double_column-t0001,PremiumRateTable,"{""doc_id"": ""policy_double_column"", ""page_no"": 2, ""n_rows"": 3, ""n_cols"": 3, ""header_map"": {""0"": ""Benefit"", ""1"": ""Product Name"", ""2"": ""Sum Assured""}}"
+rt:policy_single_column-t0001,PremiumRateTable,"{""doc_id"": ""policy_single_column"", ""page_no"": 1, ""n_rows"": 4, ""n_cols"": 3, ""header_map"": {""0"": ""Age (years)"", ""1"": ""Annual Premium (CNY)"", ""2"": ""Waiting Period""}}"

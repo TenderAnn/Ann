@@ -1,0 +1,7 @@
+{
+  "vectors": 46,
+  "dim": 512,
+  "model": "BAAI/bge-small-zh-v1.5",
+  "index": "data/index/vec.index",
+  "meta": "data/index/vec.meta.csv"
+}

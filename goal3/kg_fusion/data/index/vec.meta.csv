@@ -1,0 +1,47 @@
+chunk_id,doc_id,page_no,bbox,text,type
+sec:policy_single_column-00000,policy_single_column,1,"[85.04, 71.13, 512.99, 104.33]",Chapter 1 Product Overview RetirePlus 2024 is a participating life annuity covering ages 0-55 with lifetime protection. Chapter 1 Product Overview RetirePlus 2024 is a participating life annuity covering ages 0-55 with lifetime protection.,section
+sec:policy_single_column-00001,policy_single_column,1,"[85.04, 105.27, 514.22, 152.33]",Chapter 1 Product Overview RetirePlus 2024 is a participating life annuity covering ages 0-55 with lifetime protection. > Section 1 Key Responsibilities (a) Survival benefit: starting from policy year 5 pay 30% of base sum assured each year. (b) Maturity benefit: at age 100 pay 120% of accumulated premium. Section 1 Key Responsibilities (a) Survival benefit: starting from policy year 5 pay 30% of base sum assured each year. (b) Maturity benefit: at age 100 pay 120% of accumulated premium.,section
+sec:policy_single_column-00002,policy_single_column,1,"[85.04, 153.27, 237.85, 168.42]",Chapter 1 Product Overview RetirePlus 2024 is a participating life annuity covering ages 0-55 with lifetime protection. > Section 2 Underwriting Rules Section 2 Underwriting Rules,section
+sec:policy_single_column-00003,policy_single_column,1,"[85.04, 169.21, 360.78, 184.33]","Chapter 1 Product Overview RetirePlus 2024 is a participating life annuity covering ages 0-55 with lifetime protection. > 1. Premium options: 3, 5, or 10 year payment schedules. 1. Premium options: 3, 5, or 10 year payment schedules.",section
+sec:policy_single_column-00004,policy_single_column,1,"[85.04, 185.21, 293.52, 200.33]",Chapter 1 Product Overview RetirePlus 2024 is a participating life annuity covering ages 0-55 with lifetime protection. > 2. Waiting period: 90 days from issue date. 2. Waiting period: 90 days from issue date.,section
+sec:policy_single_column-00005,policy_single_column,1,"[85.04, 201.27, 394.95, 232.33]",Chapter 1 Product Overview RetirePlus 2024 is a participating life annuity covering ages 0-55 with lifetime protection. > Section 3 Claims Flow i. Submit claim form; ii. Provide ID proof; iii. Await review notice. Section 3 Claims Flow i. Submit claim form; ii. Provide ID proof; iii. Await review notice.,section
+sec:policy_claims_appendix-00000,policy_claims_appendix,1,"[70.87, 72.2, 205.57, 88.72]",Appendix Claims Guide Appendix Claims Guide,section
+sec:policy_claims_appendix-00001,policy_claims_appendix,1,"[70.87, 87.21, 277.52, 102.33]",Appendix Claims Guide > 1. Report via hotline 955XX or mobile app. 1. Report via hotline 955XX or mobile app.,section
+sec:policy_claims_appendix-00002,policy_claims_appendix,1,"[70.87, 101.21, 389.37, 116.33]","Appendix Claims Guide > 2. Service hours: 24/7 intake, manual review 9am-6pm workdays. 2. Service hours: 24/7 intake, manual review 9am-6pm workdays.",section
+sec:policy_claims_appendix-00003,policy_claims_appendix,1,"[70.87, 115.27, 599.06, 158.42]","Appendix Claims Guide > 3. Sample continued clause (cont.) This appendix standardizes claim material submission. Incomplete files must be supplemented within three d (cont.) When third-party reimbursement applies, attach original invoices and explanations. 3. Sample continued clause (cont.) This appendix standardizes claim material submission. Incomplete files must be supplemented within three d (cont.) When third-party reimbursement applies, attach original invoices and explanations.",section
+sec:policy_double_column-00000,policy_double_column,1,"[85.04, 73.27, 533.23, 112.33]",Chapter 2 Liability Description A. Retirement responsibilities Annual survival benefits pay 35% of base sumassured; quick-return option refunds from year three with smoothing bonus linked to asset pool results. Chapter 2 Liability Description A. Retirement responsibilities Annual survival benefits pay 35% of base sumassured; quick-return option refunds from year three with smoothing bonus linked to asset pool results.,section
+sec:policy_double_column-00001,policy_double_column,1,"[85.04, 109.21, 496.55, 124.42]",Chapter 2 Liability Description A. Retirement responsibilities Annual survival benefits pay 35% of base sumassured; quick-return option refunds from year three with smoothing bonus linked to asset pool results. > 1. War or nuclear events are excluded; B. Exclusions 1. War or nuclear events are excluded; B. Exclusions,section
+sec:policy_double_column-00002,policy_double_column,1,"[85.04, 121.21, 510.6, 160.33]",Chapter 2 Liability Description A. Retirement responsibilities Annual survival benefits pay 35% of base sumassured; quick-return option refunds from year three with smoothing bonus linked to asset pool results. > 2. Intentional self-injury or criminal acts void benefits. (1) Policy document; (2) Identity proof; (3) C. Claim materials Medical diagnosis; (4) Receipts. 2. Intentional self-injury or criminal acts void benefits. (1) Policy document; (2) Identity proof; (3) C. Claim materials Medical diagnosis; (4) Receipts.,section
+cell:policy_claims_appendix-t0001:0:0,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]",Document Type,cell
+cell:policy_claims_appendix-t0001:0:1,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]",Description,cell
+cell:policy_claims_appendix-t0001:0:2,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]",Mandatory?,cell
+cell:policy_claims_appendix-t0001:1:0,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]",Policy,cell
+cell:policy_claims_appendix-t0001:1:1,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]",Contract and riders,cell
+cell:policy_claims_appendix-t0001:1:2,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]",Yes,cell
+cell:policy_claims_appendix-t0001:2:0,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]",ID Proof,cell
+cell:policy_claims_appendix-t0001:2:1,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]",Insured or beneficiary ID,cell
+cell:policy_claims_appendix-t0001:2:2,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]",Yes,cell
+cell:policy_claims_appendix-t0001:3:0,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]",Medical Proof,cell
+cell:policy_claims_appendix-t0001:3:1,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]","Diagnosis, imaging, invoices",cell
+cell:policy_claims_appendix-t0001:3:2,policy_claims_appendix,1,"[70.87, 191.04, 524.41, 255.04]",Conditional,cell
+cell:policy_double_column-t0001:0:0,policy_double_column,2,"[70.87, 129.39, 496.06, 177.39]",Benefit,cell
+cell:policy_double_column-t0001:0:1,policy_double_column,2,"[70.87, 129.39, 496.06, 177.39]",Product Name,cell
+cell:policy_double_column-t0001:0:2,policy_double_column,2,"[70.87, 129.39, 496.06, 177.39]",Sum Assured,cell
+cell:policy_double_column-t0001:1:0,policy_double_column,2,"[70.87, 129.39, 496.06, 177.39]",Retirement,cell
+cell:policy_double_column-t0001:1:1,policy_double_column,2,"[70.87, 129.39, 496.06, 177.39]",RetirePlus 2024,cell
+cell:policy_double_column-t0001:1:2,policy_double_column,2,"[70.87, 129.39, 496.06, 177.39]","1,000,000",cell
+cell:policy_double_column-t0001:2:0,policy_double_column,2,"[70.87, 129.39, 496.06, 177.39]",Accident,cell
+cell:policy_double_column-t0001:2:1,policy_double_column,2,"[70.87, 129.39, 496.06, 177.39]",RetirePlus 2024,cell
+cell:policy_double_column-t0001:2:2,policy_double_column,2,"[70.87, 129.39, 496.06, 177.39]","200,000",cell
+cell:policy_single_column-t0001:0:0,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]",Age (years),cell
+cell:policy_single_column-t0001:0:1,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]",Annual Premium (CNY),cell
+cell:policy_single_column-t0001:0:2,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]",Waiting Period,cell
+cell:policy_single_column-t0001:1:0,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]",0-17,cell
+cell:policy_single_column-t0001:1:1,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]","12,000",cell
+cell:policy_single_column-t0001:1:2,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]",90 days,cell
+cell:policy_single_column-t0001:2:0,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]",18-40,cell
+cell:policy_single_column-t0001:2:1,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]","15,000",cell
+cell:policy_single_column-t0001:2:2,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]",60 days,cell
+cell:policy_single_column-t0001:3:0,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]",41-55,cell
+cell:policy_single_column-t0001:3:1,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]","21,000",cell
+cell:policy_single_column-t0001:3:2,policy_single_column,1,"[85.04, 267.04, 538.58, 331.04]",30 days,cell

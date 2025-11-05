@@ -1,0 +1,12 @@
+doc_id,table_id,page_no,row_idx,c0,c1,c2
+policy_claims_appendix,policy_claims_appendix-t0001,1,0,Document Type,Description,Mandatory?
+policy_claims_appendix,policy_claims_appendix-t0001,1,1,Policy,Contract and riders,Yes
+policy_claims_appendix,policy_claims_appendix-t0001,1,2,ID Proof,Insured or beneficiary ID,Yes
+policy_claims_appendix,policy_claims_appendix-t0001,1,3,Medical Proof,"Diagnosis, imaging, invoices",Conditional
+policy_double_column,policy_double_column-t0001,2,0,Benefit,Product Name,Sum Assured
+policy_double_column,policy_double_column-t0001,2,1,Retirement,RetirePlus 2024,"1,000,000"
+policy_double_column,policy_double_column-t0001,2,2,Accident,RetirePlus 2024,"200,000"
+policy_single_column,policy_single_column-t0001,1,0,Age (years),Annual Premium (CNY),Waiting Period
+policy_single_column,policy_single_column-t0001,1,1,0-17,"12,000",90 days
+policy_single_column,policy_single_column-t0001,1,2,18-40,"15,000",60 days
+policy_single_column,policy_single_column-t0001,1,3,41-55,"21,000",30 days

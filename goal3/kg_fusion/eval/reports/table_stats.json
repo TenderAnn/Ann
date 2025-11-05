@@ -1,0 +1,18 @@
+{
+  "docs": {
+    "policy_claims_appendix.tables": {
+      "tables": 1,
+      "cells": 12
+    },
+    "policy_double_column.tables": {
+      "tables": 1,
+      "cells": 9
+    },
+    "policy_single_column.tables": {
+      "tables": 1,
+      "cells": 12
+    }
+  },
+  "total_tables": 3,
+  "total_cells": 33
+}

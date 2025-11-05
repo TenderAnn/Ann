@@ -1,0 +1,14 @@
+doc_id,page_no,section_id,is_heading,text,bbox,ok?
+policy_single_column,1,policy_single_column-00001,True,Section 1 Key Responsibilities (a) Survival benefit: starting from policy year 5,"[85.04, 105.27, 514.22, 152.33]",1
+policy_single_column,1,policy_single_column-00002,True,Section 2 Underwriting Rules,"[85.04, 153.27, 237.85, 168.42]",1
+policy_single_column,1,policy_single_column-00004,True,2. Waiting period: 90 days from issue date.,"[85.04, 185.21, 293.52, 200.33]",1
+policy_single_column,1,policy_single_column-00000,True,Chapter 1 Product Overview RetirePlus 2024 is a participating life annuity cover,"[85.04, 71.13, 512.99, 104.33]",1
+policy_single_column,1,policy_single_column-00003,True,"1. Premium options: 3, 5, or 10 year payment schedules.","[85.04, 169.21, 360.78, 184.33]",1
+policy_single_column,1,policy_single_column-00005,True,Section 3 Claims Flow i. Submit claim form; ii. Provide ID proof; iii. Await rev,"[85.04, 201.27, 394.95, 232.33]",1
+policy_claims_appendix,1,policy_claims_appendix-00003,True,3. Sample continued clause (cont.) This appendix standardizes claim material sub,"[70.87, 115.27, 599.06, 158.42]",1
+policy_claims_appendix,1,policy_claims_appendix-00001,True,1. Report via hotline 955XX or mobile app.,"[70.87, 87.21, 277.52, 102.33]",1
+policy_claims_appendix,1,policy_claims_appendix-00002,True,"2. Service hours: 24/7 intake, manual review 9am-6pm workdays.","[70.87, 101.21, 389.37, 116.33]",1
+policy_claims_appendix,1,policy_claims_appendix-00000,True,Appendix Claims Guide,"[70.87, 72.2, 205.57, 88.72]",1
+policy_double_column,1,policy_double_column-00001,True,1. War or nuclear events are excluded; B. Exclusions,"[85.04, 109.21, 496.55, 124.42]",1
+policy_double_column,1,policy_double_column-00000,True,Chapter 2 Liability Description A. Retirement responsibilities Annual survival b,"[85.04, 73.27, 533.23, 112.33]",1
+policy_double_column,1,policy_double_column-00002,True,2. Intentional self-injury or criminal acts void benefits. (1) Policy document; ,"[85.04, 121.21, 510.6, 160.33]",1

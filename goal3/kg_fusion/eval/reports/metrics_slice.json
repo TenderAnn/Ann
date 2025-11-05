@@ -1,0 +1,11 @@
+{
+  "total": 13,
+  "correct": 13,
+  "accuracy_pct": 100.0,
+  "by_doc": {
+    "policy_single_column": 100.0,
+    "policy_claims_appendix": 100.0,
+    "policy_double_column": 100.0
+  },
+  "target": ">=90%"
+}

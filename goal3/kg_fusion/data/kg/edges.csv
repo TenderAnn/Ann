@@ -1,0 +1,9 @@
+src_id,edge_type,dst_id,props_json
+pv:policy_single_column,HAS_COVERAGE,clause:policy_single_column-00001,{}
+pv:policy_claims_appendix,HAS_CLAIM_MATERIAL,clause:policy_claims_appendix-00003,{}
+pv:policy_double_column,HAS_COVERAGE,clause:policy_double_column-00000,{}
+pv:policy_double_column,HAS_COVERAGE,clause:policy_double_column-00001,{}
+pv:policy_double_column,HAS_COVERAGE,clause:policy_double_column-00002,{}
+pv:policy_claims_appendix,HAS_RATE_TABLE,rt:policy_claims_appendix-t0001,{}
+pv:policy_double_column,HAS_RATE_TABLE,rt:policy_double_column-t0001,{}
+pv:policy_single_column,HAS_RATE_TABLE,rt:policy_single_column-t0001,{}
